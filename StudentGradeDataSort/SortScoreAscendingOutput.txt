@@ -1,0 +1,16 @@
+15
+"Hunter, Crocodile"            8
+"Rockafeller, J."              9
+"Kim, Jong Un"                 10
+"Williams, John"               25
+"Barbados, Jim"                38
+"Pope, John Paul II"           44
+"Barksdale, Clyde"             55
+"Kalamazoo, Michigan"          66
+"Cricket, Jiminy"              76
+"Coolio"                       80
+"Zeta-Jones, Catherine"        87
+"Turtle, Donatello"            95
+"Fox, Michael J."              838
+"Gaffigan, James"              865
+"Jay-Z"                        993

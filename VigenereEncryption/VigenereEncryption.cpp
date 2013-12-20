@@ -229,7 +229,7 @@ void processCommandLine(int argc, char *argv[], CommandLineInfo *cmdLnArgs)
 void displayProgramUsageAndQuit(char *argv[], int errorElement, CommandLineInfo *cmdLnArgs)
 {
   std::cerr << "\n*******************************************************************" << std::endl;
-  std::cerr << "\n\nNOTE: Program must be run from command-line to accept arguments.\n\n" << std::endl;
+  std::cerr << "\n\nNOTE: Program must be run from command-line to accept arguments.\nv\n" << std::endl;
   //test for presence of -e or -d first; only required arguments
   std::cerr << "\nCOMMAND-LINE ERROR: [";
 	if(cmdLnArgs->mode == 'x') 

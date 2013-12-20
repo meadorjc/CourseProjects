@@ -1,0 +1,2 @@
+pixblockBMP CommandFile.txt
+PAUSE

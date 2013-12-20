@@ -1,7 +1,0 @@
-Taken from: http://en.wikipedia.org/wiki/Lorem_ipsum
-
-A common form of lorem ipsum text reads as follows:
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Another version of the text uses the word "adipisici" (rather than "adipisicing"; the digraph ng at the end of words is alien to classical Latin). Other versions of lorem ipsum include additional words to add variety so that repeated verses will not word-wrap on the same phrases.

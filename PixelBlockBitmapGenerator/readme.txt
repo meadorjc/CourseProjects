@@ -1,7 +1,67 @@
 Caleb Meador 12/19/2013 - meadorjc at gmail.com
 
 PixelBlockBitmapGenerator (GE4)
- - For detailed program specifications, see PixelBlockBitmapGeneratorSpecifications.pdf
+    
+    PixBlockBMP generates bitmaps from a preset template of 10 by 10 pixel-
+    blocks, which are 50px by 50px squares.  The user can insert and delete
+    rows and columns, modify the color of a single block, write the bitmap to 
+    a new file, and quit the program through a text file. 
+    
+    Batch-File Usage:
+        
+        RunPixBlockBMP.bat 
+
+            This batch file runs PixBlockBMP.exe with CommandFile.txt as the
+            command-line argument 
+            
+            The example command-file that is included creates four bitmap files:
+                default1.bmp
+                defaultAfterInsert.bmp
+                newDefaultColor.bmp, and
+                tinyBitmap.bmp. 
+                
+            These four files demonstrate the default image, as well as the 
+            default image after using various commands to edit the image.
+    
+    Command-Line Usage: 
+        
+        PixBlockBMP takes one command-line argument, which is the name of a text-
+        file that serves at the command-file.    
+    
+        PixBlockBMP [Command-File-Name].txt
+    
+    Command-File Usage: Commands may be entered in any order.
+
+        NEW DEFAULT COLOR
+            default r [0-255] g [0-255] b [0-255] a [0-255] (use ALL)
+        
+        INSERT ROW or COL
+            insert {row | col} [#] r [0-255] g [0-255] b [0-255] a [0-255]
+                NOTE: colors optional. 
+                If omitted, replaced by default values.
+        
+        DELETE ROW or COL
+            delete {row | col} [#] (use all)
+        
+        MODIFY BLOCK
+            mod [row] [#] [col] [#] r [0-255] g [0-255] b [0-255] a [0-255]
+                NOTE: colors optional. 
+                If omitted, replaced by value of 255 (default color)
+        
+        WRITE TO FILE
+            write [user bmp file-name].bmp
+        
+        QUIT PROGRAM
+            quit
+    
+        Example:
+            default r 255 g 128 b 80 a 255
+            insert row 5 r 20 g 23 b 188 a 222
+            delete col 9
+            mod row 0 col 0 r 0 g 255 b 25 a 80
+            write ExampleBitmap.bmp
+            quit
+
 
     Purpose: The purpose of this program is to utilize and consolidate learning 
         for the following concepts:
@@ -77,6 +137,8 @@ PixelBlockBitmapGenerator (GE4)
         sequential order by the program.
         
     Procedure:
+    For detailed program specifications, see PixBlockBMPSpecifications.pdf
+
         Process command-line arguments and save for later use.
         
         Check file system for file existence and open if present.
@@ -104,34 +166,3 @@ PixelBlockBitmapGenerator (GE4)
        
         End program.
         
-    Command-Line Usage: Commands may be entered in any order.
-
-        NEW DEFAULT COLOR
-            default r [0-255] g [0-255] b [0-255] a [0-255] (use ALL)
-        
-        INSERT ROW or COL
-            insert {row | col} [#] r [0-255] g [0-255] b [0-255] a [0-255]
-                NOTE: colors optional. 
-                If omitted, replaced by default values.
-        
-        DELETE ROW or COL
-            delete {row | col} [#] (use all)
-        
-        MODIFY BLOCK
-            mod [row] [#] [col] [#] r [0-255] g [0-255] b [0-255] a [0-255]
-                NOTE: colors optional. 
-                If omitted, replaced by value of 255 (default color)
-        
-        WRITE TO FILE
-            write [user bmp file-name].bmp
-        
-        QUIT PROGRAM
-            quit
-    
-        Example:
-            default r 255 g 128 b 80 a 255
-            insert row 5 r 20 g 23 b 188 a 222
-            delete col 9
-            mod row 0 col 0 r 0 g 255 b 25 a 80
-            write ExampleBitmap.bmp
-            quit

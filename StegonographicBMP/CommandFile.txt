@@ -1,0 +1,48 @@
+createDefaultBitmapObject
+write default.bmp
+insert row 9 r 0 g 255 b 0 a 255 
+insert col 9 r 0 g 0 b 255 a 255
+modify row 9 col 9 r 50 g 255 b 50 a 128
+insert row 0
+insert col 0
+write default1.bmp
+deleteObject
+createBitmapObjectFromBMPFile default1.bmp
+default r 255 g 0 b 255 a 128
+insert row 5
+insert col 5
+modify row 3 col 3
+write default2.bmp
+deleteObject
+createDefaultStegoBitmapObject
+write stegoDefault.bmp
+deleteObject
+createStegoBitmapObjectFromBMPFile default2.bmp
+delete col 0
+delete col 0
+delete col 0
+delete col 0
+delete col 0
+delete col 0
+delete col 0
+delete col 0
+delete col 0
+delete col 0
+delete row 0
+delete row 0
+delete row 0
+delete row 0
+delete row 0
+delete row 0
+delete row 0
+delete row 0
+delete row 0
+delete row 0
+write fileToHide.bmp
+hideFileInBMPFile default2.bmp fileToHide.bmp
+retrieveFileFromBMPFile default2withHiddenFile.bmp foundFile.bmp
+deleteObject
+quit
+
+
+

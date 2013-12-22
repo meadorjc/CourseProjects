@@ -1,7 +1,121 @@
-Caleb Meador 12/19/2013 - meadorjc at gmail.com
+/*****************************************************
+*    Caleb Meador
+*    COSC1437 GE#6 , Fall, 2013
+*    Filename:readme.txt
+*    12/05/2013
+*       Update 12/19/2013
+********************************************************/
+Stegonography literally means "concealed writing," and describes encoding hidden
+messages or data within other data.  For more information, 
+see: http://en.wikipedia.org/wiki/Steganography
 
-PixelBlockBitmapGenerator (GE4)
+StegonographicBitmap is a program that allows for bitmap files to be created, 
+edited, and hidden within other bitmap files. It is based off a previous project, 
+PixBlockBMP, to generate bitmaps from a preset template of 10 by 10 pixel-blocks, 
+which are 50px by 50px squares.  The user can insert and delete rows and 
+columns, modify the color of a single block, write the bitmap to a new file, 
+and quit the program through a series of text file commands. 
+
+
+A sample command-file is included:
     
+    CommandFile.txt
+
+Batch-File Usage:   
+    
+    runStegoBMP.bat
+    
+    This batch file opens the command-prompt and runs the StegoBMP with 
+    "CommandFile.txt" as an argument. From the commands given in the text file,
+    the program creates 7 bitmap files to demonstrate the various commands that
+    are available.
+        default.bmp 
+            - standard generated bitmap
+        default1.bmp 
+            - standard bitmap file after insertions
+        default2.bmp 
+            - standard bitmap file after new default color and modifications
+        stegoDefault.bmp 
+            - default stegonographic file (same as default.bmp)
+        fileToHide.bmp 
+            - small bitmap which will be hidden inside another file.
+        default2withHiddenFile.bmp 
+            - same as default2.bmp, only with binary data
+                altered in order to store fileToHide.bmp inside of the image.
+        foundFile.bmp 
+            - File after it has been decoded from binary data inside 
+                the bitmap file.
+
+Command-Line Commands: 
+    
+    StegoBMP takes one arguments, the name of the text-file containing commands.
+    
+    StegoBMP [command-file-name].txt
+
+Command-File commands:
+    
+    CREATE NEW FILE OBJECT - creates default file to edit with red block-letter C
+    
+        createDefaultBitmapObject
+    
+    CREATE NEW FILE OBJECT FROM EXISTING FILE - creates a file object from GE5 
+    compatible bitmap
+    
+        createBitmapObjectFromBMPFile [filename].bmp
+    
+    CREATE NEW STEGONOGRAPHY FILE OBJECT
+    
+        createDefaultStegoBitmapObject
+    
+    CREATE NEW STEGONOGRAPHY FILE OBJECT FROM EXISTING FILE
+    
+        createStegoBitmapObjectFromBMPFile [filename].bmp
+    
+        SPECIAL STEGONOGRAPHIC COMMANDS: 
+        These may only be used with steganography objects
+        
+        HIDE BITMAP WITHIN ANOTHER BITMAP
+        
+            hideFileinBMPFile [fileWithHiddenData].bmp [fileToHide].bmp
+        
+        GET HIDDEN BITMAP FROM ENCODED FILE
+            
+            retrieveFileFromBMPFile [fileWithHiddenData].bmp [fileToReveal].bmp
+    
+    
+    GENERAL COMMANDS:
+    These commands may be used with both normal bitmap and stenographic bitmap objects
+    
+        CREATE NEW DEFAULT COLOR:
+        
+            default r [0-255] g [0-255] b [0-255] a [0-255] (use ALL)
+        
+        INSERT ROW OR COLUMN with/without COLOR
+        
+            insert { row | col } [#] r [0-255] g [0-255] b [0-255] a [0-255]
+            
+            NOTE: colors optional. If omitted, replaced by default values.
+        
+        DELETE ROW OR COLUMN:
+        
+            delete {row | col} [#] 
+        
+        MODIFY ROW OR COLUMN with COLOR
+        
+            mod [row] [#] [col] [#] r [0-255] g [0-255] b [0-255] a [0-255]
+            
+            NOTE: colors optional. If omitted, replaced by value of 255 
+            (default color)
+        
+        WRITE CURRENT FILE to FILESYSTEM
+        
+            write [user bmp file-name].bmp
+        
+        QUIT PROGRAM
+        
+            quit
+            
+            
     PixBlockBMP generates bitmaps from a preset template of 10 by 10 pixel-
     blocks, which are 50px by 50px squares.  The user can insert and delete
     rows and columns, modify the color of a single block, write the bitmap to 
@@ -22,49 +136,11 @@ PixelBlockBitmapGenerator (GE4)
                 
             These four files demonstrate the default image, as well as the 
             default image after using various commands to edit the image.
-    
-    Command-Line Usage: 
-        
-        PixBlockBMP takes one command-line argument, which is the name of a text-
-        file that serves at the command-file.    
-    
-        PixBlockBMP [Command-File-Name].txt
-    
-    Command-File Usage: Commands may be entered in any order.
 
-        NEW DEFAULT COLOR
-            default r [0-255] g [0-255] b [0-255] a [0-255] (use ALL)
-        
-        INSERT ROW or COL
-            insert {row | col} [#] r [0-255] g [0-255] b [0-255] a [0-255]
-                NOTE: colors optional. 
-                If omitted, replaced by default values.
-        
-        DELETE ROW or COL
-            delete {row | col} [#] (use all)
-        
-        MODIFY BLOCK
-            mod [row] [#] [col] [#] r [0-255] g [0-255] b [0-255] a [0-255]
-                NOTE: colors optional. 
-                If omitted, replaced by value of 255 (default color)
-        
-        WRITE TO FILE
-            write [user bmp file-name].bmp
-        
-        QUIT PROGRAM
-            quit
-    
-        Example:
-            default r 255 g 128 b 80 a 255
-            insert row 5 r 20 g 23 b 188 a 222
-            delete col 9
-            mod row 0 col 0 r 0 g 255 b 25 a 80
-            write ExampleBitmap.bmp
-            quit
-
-
-    Purpose: The purpose of this program is to utilize and consolidate learning 
+            
+Purpose: The purpose of this program is to utilize and consolidate learning 
         for the following concepts:
+            
             - multi-dimensional to one-dimensional vector translations 
             - bitwise operator and byte-order configuration for primitive datatypes
             - binary-mode file processing 
@@ -165,4 +241,5 @@ PixelBlockBitmapGenerator (GE4)
 
         Close all files.
 
-        End program.
+        End program.          
+            

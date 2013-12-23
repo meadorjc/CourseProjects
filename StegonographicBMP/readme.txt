@@ -16,7 +16,6 @@ which are 50px by 50px squares.  The user can insert and delete rows and
 columns, modify the color of a single block, write the bitmap to a new file, 
 and quit the program through a series of text file commands. 
 
-
 A sample command-file is included:
     
     CommandFile.txt
@@ -54,12 +53,13 @@ Command-Line Commands:
 
 Command-File commands:
     
-    CREATE NEW FILE OBJECT - creates default file to edit with red block-letter C
+    CREATE NEW FILE OBJECT: 
+        creates default file to edit with red block-letter C
     
         createDefaultBitmapObject
     
-    CREATE NEW FILE OBJECT FROM EXISTING FILE - creates a file object from GE5 
-    compatible bitmap
+    CREATE NEW FILE OBJECT FROM EXISTING FILE:
+        creates a file object from GE5 compatible bitmap
     
         createBitmapObjectFromBMPFile [filename].bmp
     
@@ -121,46 +121,42 @@ Command-File commands:
     rows and columns, modify the color of a single block, write the bitmap to 
     a new file, and quit the program through a text file. 
     
-    Batch-File Usage:
-        
-        RunPixBlockBMP.bat 
-
-            This batch file runs PixBlockBMP.exe with CommandFile.txt as the
-            command-line argument 
-            
-            The example command-file that is included creates four bitmap files:
-                default1.bmp
-                defaultAfterInsert.bmp
-                newDefaultColor.bmp, and
-                tinyBitmap.bmp. 
                 
-            These four files demonstrate the default image, as well as the 
-            default image after using various commands to edit the image.
-
-            
 Purpose: The purpose of this program is to utilize and consolidate learning 
-        for the following concepts:
+        of the following concepts:
+        - Class objects, inheritance, constructors and destructors
+        - Error handling
+        - bitwise operator and byte-order configuration for primitive datatypes
+        - Endianness (big-endian vs. little-endian) 
+        - multi-dimensional to one-dimensional vector translations 
+        - binary-mode file processing 
+        - Understand and work with hexadecimal format 
+        - Understand bitmap file formatting and header structures.
+        - continue to develop skills of structs, pointers to structs, 
+            dynamically allocated struct data, command-line arguments processing, 
+            and flexible input-file data processing.
             
-            - multi-dimensional to one-dimensional vector translations 
-            - bitwise operator and byte-order configuration for primitive datatypes
-            - binary-mode file processing 
-            - Understand and work with hexadecimal format 
-            - Understand bitmap file formatting and header structures.
-            - continue to develop skills of structs, pointers to structs, 
-                dynamically allocated struct data, command-line arguments processing, 
-                and flexible input-file data processing.
-                
         Definitions:
         PixelBlock 
             A 50px by 50px block of uniform color stored as a single unsigned 
             integer in a 1-d vector array; color can be specified by user
             or be filled in by a preset default color.
         
-        Default PixelBlock Image         
-            The default vector of unsigned integers with 100 elements, representing
-            the pixel-blocks in the stardard 10 pixel-block by 10 pixel-block image.
-            The default image is initially populated by a block-letter 'C'.
+        Default Bitmap Object         
+            A bitmap object with a default vector of unsigned integers with 100 
+            elements, representing the pixel-blocks in the stardard 10 pixel-block 
+            by 10 pixel-block image. The default image is initially populated by 
+            a block-letter 'C'. A default bitmap object can accept any commands
+            that are found under GENERAL COMMANDS: no stegonographic functions
+            may be applied to a standard bitmap object.
         
+        StegoBMP Object
+            A bitmap object that can accept all GNERAL COMMANDS, as well as 
+            SPECIAL STEGONOGRAPHIC COMMANDS, which include: 
+                HIDE BITMAP WITHIN ANOTHER BITMAP
+                GET HIDDEN BITMAP FROM ENCODED FILE
+                
+              
             Representation:
             
             R = RED     (0xFFFF0000)

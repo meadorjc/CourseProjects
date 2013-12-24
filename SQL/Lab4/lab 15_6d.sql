@@ -1,0 +1,1 @@
+select ProductID, DiscountPercent from products

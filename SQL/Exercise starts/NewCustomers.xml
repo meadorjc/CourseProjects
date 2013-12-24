@@ -1,0 +1,5 @@
+﻿<NewCustomers>
+	<Customer EmailAddress="izzychan@yahoo.com" Password="" FirstName="Isabella" LastName="Chan" />
+	<Customer EmailAddress="johnprine@gmail.com" Password="" FirstName="John" LastName="Prine" />
+	<Customer EmailAddress="kathykitchen@sbcglobal.net" Password="" FirstName="Kathy" LastName="Kitchen" />
+</NewCustomers>

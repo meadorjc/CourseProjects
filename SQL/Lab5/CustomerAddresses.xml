@@ -1,0 +1,118 @@
+﻿<CustomerAddresses>
+  <c>
+    <firstname>Allan</firstname>
+    <lastname>Sherwood</lastname>
+    <a>
+      <line1>100 East Ridgewood Ave.</line1>
+      <line2></line2>
+      <city>Paramus</city>
+      <state>NJ</state>
+      <zipcode>07652</zipcode>
+    </a>
+    <a>
+      <line1>21 Rosewood Rd.</line1>
+      <line2></line2>
+      <city>Woodcliff Lake</city>
+      <state>NJ</state>
+      <zipcode>07677</zipcode>
+    </a>
+  </c>
+  <c>
+    <firstname>Barry</firstname>
+    <lastname>Zimmer</lastname>
+    <a>
+      <line1>16285 Wendell St.</line1>
+      <line2></line2>
+      <city>Omaha</city>
+      <state>NE</state>
+      <zipcode>68135</zipcode>
+    </a>
+  </c>
+  <c>
+    <firstname>Christine</firstname>
+    <lastname>Brown</lastname>
+    <a>
+      <line1>19270 NW Cornell Rd.</line1>
+      <line2></line2>
+      <city>Beaverton</city>
+      <state>OR</state>
+      <zipcode>97006</zipcode>
+    </a>
+  </c>
+  <c>
+    <firstname>David</firstname>
+    <lastname>Goldstein</lastname>
+    <a>
+      <line1>186 Vermont St.</line1>
+      <line2>Apt. 2</line2>
+      <city>San Francisco</city>
+      <state>CA</state>
+      <zipcode>94110</zipcode>
+    </a>
+    <a>
+      <line1>1374 46th Ave.</line1>
+      <line2></line2>
+      <city>San Francisco</city>
+      <state>CA</state>
+      <zipcode>94129</zipcode>
+    </a>
+  </c>
+  <c>
+    <firstname>Erin</firstname>
+    <lastname>Valentino</lastname>
+    <a>
+      <line1>6982 Palm Ave.</line1>
+      <line2></line2>
+      <city>Fresno</city>
+      <state>CA</state>
+      <zipcode>93711</zipcode>
+    </a>
+  </c>
+  <c>
+    <firstname>Frank Lee</firstname>
+    <lastname>Wilson</lastname>
+    <a>
+      <line1>23 Mountain View St.</line1>
+      <line2></line2>
+      <city>Denver</city>
+      <state>CO</state>
+      <zipcode>80208</zipcode>
+    </a>
+  </c>
+  <c>
+    <firstname>Gary</firstname>
+    <lastname>Hernandez</lastname>
+    <a>
+      <line1>7361 N. 41st St.</line1>
+      <line2>Apt. B</line2>
+      <city>New York</city>
+      <state>NY</state>
+      <zipcode>10012</zipcode>
+    </a>
+    <a>
+      <line1>3829 Broadway Ave.</line1>
+      <line2>Suite 2</line2>
+      <city>New York</city>
+      <state>NY</state>
+      <zipcode>10012</zipcode>
+    </a>
+  </c>
+  <c>
+    <firstname>Heather</firstname>
+    <lastname>Esway</lastname>
+    <a>
+      <line1>2381 Buena Vista St.</line1>
+      <line2></line2>
+      <city>Los Angeles</city>
+      <state>CA</state>
+      <zipcode>90023</zipcode>
+    </a>
+    <a>
+      <line1>291 W. Hollywood Blvd.</line1>
+      <line2></line2>
+      <city>Los Angeles</city>
+      <state>CA</state>
+      <zipcode>90024</zipcode>
+    </a>
+  </c>
+</CustomerAddresses>

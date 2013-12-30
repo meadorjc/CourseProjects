@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use AP;
 
 declare avg_cursor cursor 

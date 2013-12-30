@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /*
 6.	Write a SELECT statement that answers this question: What is the total amount ordered for each product? Return these columns:
 The product name from the Products table

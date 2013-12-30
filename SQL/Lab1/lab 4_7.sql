@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop;
 
 select 'Shipped' as ShipStatus, OrderID, OrderDate

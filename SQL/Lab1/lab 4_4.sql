@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop
 select LastName, FirstName, OrderDate, ProductName, ItemPrice, DiscountAmount, Quantity
 from Customers as c

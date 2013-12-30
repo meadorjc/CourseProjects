@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /* a correlated table is one where x.table = y.table */
 select vendor_name, 
 		invoice_number,

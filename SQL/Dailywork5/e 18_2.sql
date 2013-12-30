@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 create login AAaron with password = 'aaar9999',
 default_Database = AP;
 

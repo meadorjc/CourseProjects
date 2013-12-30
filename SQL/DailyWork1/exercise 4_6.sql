@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select v1.VendorID, v1.VendorName,
 v1.VendorContactFName + ' ' + v1.VendorContactLName 
 as Name

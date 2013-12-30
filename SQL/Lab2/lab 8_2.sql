@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop;
 
 select DateAdded, cast(dateadded as date) as "Date", 

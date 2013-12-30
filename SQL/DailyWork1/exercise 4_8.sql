@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use AP;
 select VendorName, VendorState
 from Vendors

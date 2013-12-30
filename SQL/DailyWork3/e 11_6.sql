@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use Membership;
 
 drop table GroupMembership;

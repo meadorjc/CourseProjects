@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 create trigger Invoices_UPDATE_Shipping
 	on Invoices
 	after insert, update

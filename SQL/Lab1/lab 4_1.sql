@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 Use MyGuitarShop;
 select CategoryName, ProductName, ListPrice
 from Categories as c

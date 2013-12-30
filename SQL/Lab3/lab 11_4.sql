@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use Test_MyWebDB;
 
 Alter table products

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select  VendorName,
 		i.InvoiceID,
 		InvoiceSequence,

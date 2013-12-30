@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /* What's the advantage of a stored procedure? 
 	 Same advantage as a view: Its compiled in machine language,
 	 as are functions and triggers. Therefore, they run faster.

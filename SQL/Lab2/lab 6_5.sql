@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 Select ProductName, DiscountPercent
 from Products
 WHERE DiscountPercent NOT IN (

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use myguitarshop;
 
 select firstname, lastname, line1, line2, city, state, zipcode

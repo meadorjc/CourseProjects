@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select CustomerID, ShipLine1 
 from CustomerAddresses
 where CustomerID = 8;

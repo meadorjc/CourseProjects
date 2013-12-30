@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 begin try
 		insert into Categories
 		values ('Guitars');

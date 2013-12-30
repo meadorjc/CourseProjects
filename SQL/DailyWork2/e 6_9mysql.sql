@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /* derived table example*/
 select SUM(max_invoice_total) as sum_max_invoice_total
 from 

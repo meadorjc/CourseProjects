@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop;
 
 if exists (select db_id('Products_INSERT'))

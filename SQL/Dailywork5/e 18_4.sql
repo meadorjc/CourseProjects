@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 alter role PaymentEntry drop member AAaron;
 alter role PaymentEntry drop member BBrown;
 alter role PaymentEntry drop member CChapin;

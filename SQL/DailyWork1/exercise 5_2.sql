@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select top 10 VendorName, SUM(PaymentTotal)
 AS PaymentSum
 from Vendors as v 

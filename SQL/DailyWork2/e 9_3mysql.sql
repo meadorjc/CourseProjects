@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select vendor_name, 
 		upper(vendor_name), 
 		substring(vendor_phone,11, 4),

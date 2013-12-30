@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /*mySQL uses autoincrement to denote primary key:
 	SQL uses identity */
 

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /* 
 2.	Write a SELECT statement that returns one row for each category that has products with these columns:
 The CategoryName column from the Categories table

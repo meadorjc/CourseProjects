@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop;
 select p1.ProductName, p1.ListPrice
 from Products as p1

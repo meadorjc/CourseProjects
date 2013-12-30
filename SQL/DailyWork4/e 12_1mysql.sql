@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 create or replace view open_items as
 	select vendor_name, invoice_number, invoice_total, 
 			invoice_total-credit_total-payment_total as balance_due

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 declare @count int;
 
 select @count = 20;

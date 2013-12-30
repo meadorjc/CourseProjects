@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select start_date, DATE_FORMAT(start_date, '%b/%d/%y'),
 DATE_FORMAT(start_date,'%c/%e/%y'),
 DATE_FORMAT(start_date, '%l:%i %p'), 

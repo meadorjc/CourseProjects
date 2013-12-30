@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use myguitarshop;
 
 create login RobertHalliday with password = 'HelloBob',

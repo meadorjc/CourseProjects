@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 declare @ProdCount int;
 declare @AvgListPrice money;
 

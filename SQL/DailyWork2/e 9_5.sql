@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 
 select invoicenumber, 
 invoicetotal-paymenttotal-CreditTotal as BalanceDue,

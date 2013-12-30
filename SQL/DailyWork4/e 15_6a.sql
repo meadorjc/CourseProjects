@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 create function fnDateRange
 	(@DateMin smalldatetime, @DateMax smalldatetime)
 returns table

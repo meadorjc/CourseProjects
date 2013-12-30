@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /* here must use an inline view instead
 	of a correlated subquery
 */

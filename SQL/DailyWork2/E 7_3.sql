@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 INSERT into VendorCopy
 		(VendorName,
 		VendorAddress1, 

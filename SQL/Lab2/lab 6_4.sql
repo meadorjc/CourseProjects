@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop;
 select EmailAddress, max(ordertotal) as topOrderTotal
 from (select c.EmailAddress, oi.orderID, sum((oi.ItemPrice-oi.DiscountAmount)*oi.Quantity) as ordertotal

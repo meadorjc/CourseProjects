@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop;
 
 select CardNumber, len(cardnumber) as NumberLength, 

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /*
 3.	Write a SELECT statement that returns one row for each customer that has orders with these columns:
 The EmailAddress column from the Customers table

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /*e6-6 mySQL
 	In mySQL, the databases are not capitalized
 	concat() must be used in mySQL; SQL can use '+' or concat() to concatenate 

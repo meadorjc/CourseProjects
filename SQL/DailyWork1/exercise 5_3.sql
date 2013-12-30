@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select VendorName, COUNT(*) as InvoiceCount, SUM(InvoiceTotal) as InvoiceSum
 from Vendors as v
 join Invoices as i

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 USE MyGuitarShop;
 
 declare @dynamicsql varchar(255);

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use master
 go
 if DB_ID('Membership') is not null

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select gla.AccountNo, AccountDescription
 from GLAccounts as gla 
 left join InvoiceLineItems as ili

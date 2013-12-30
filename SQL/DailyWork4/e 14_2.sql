@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use AP;
 
 select VendorID, MIN(InvoiceDate) as FirstInvoiceDate

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 create trigger Products_UPDATE 
 	on Products
 	after update

@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use MyGuitarShop;
 if exists(select DB_ID('spInsertProduct'))
 	drop procedure spInsertProduct;

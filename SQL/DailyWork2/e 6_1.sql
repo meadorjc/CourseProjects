@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select distinct VendorName
 from Vendors
 where VendorID in (select VendorID from Invoices)

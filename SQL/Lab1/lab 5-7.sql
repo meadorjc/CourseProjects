@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 /*
 7.	Write a SELECT statement that answers this question: Which customers have ordered more than one product? Return these columns:
 The email address from the Customers table

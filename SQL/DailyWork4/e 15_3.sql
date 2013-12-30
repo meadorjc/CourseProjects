@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 create proc spDateRange
 	@DateMin varchar(50) = null,
 	@DateMax varchar(50) = null

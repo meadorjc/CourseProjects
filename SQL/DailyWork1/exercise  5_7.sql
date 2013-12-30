@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 SELECT VendorName,
 	count(*) as LineItemCount, 
 	sum(InvoiceLineItemAmount) as LineItemSum,

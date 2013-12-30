@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use ap;
 /*to declare a parameter! no normal variables!*/
 declare @TotalBalanceDue money; 

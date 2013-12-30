@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 use master;
 
 IF DB_ID('Test_MyWebDB') IS NOT NULL

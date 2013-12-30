@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 select * from InvoiceBasic 
 where VendorName like '[N-P]%' /*(left(VendorName, 1) = 'N'or left(vendorName, 1) = 'O' or left(vendorName, 1) = 'N')*/
 order by VendorName

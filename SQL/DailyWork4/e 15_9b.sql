@@ -1,3 +1,4 @@
+/*Caleb Meador meadorjc at gmail.com*/
 create trigger NoDuplicates
 on testUniqueNulls 
 after insert, update as 
